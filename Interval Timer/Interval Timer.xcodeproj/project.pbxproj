@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AFDDF92B1253D300B28995 /* Interval Timer Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04AFDDF82B1253D300B28995 /* Interval Timer Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04AFDDFE2B1253D300B28995 /* Interval_TimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDDFD2B1253D300B28995 /* Interval_TimerApp.swift */; };
+		04AFDE002B1253D300B28995 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDDFF2B1253D300B28995 /* ContentView.swift */; };
+		04AFDE022B1253D400B28995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AFDE012B1253D400B28995 /* Assets.xcassets */; };
+		04AFDE052B1253D400B28995 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AFDE042B1253D400B28995 /* Preview Assets.xcassets */; };
+		04AFDE0F2B1253D400B28995 /* Interval_Timer_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDE0E2B1253D400B28995 /* Interval_Timer_Watch_AppTests.swift */; };
+		04AFDE192B1253D400B28995 /* Interval_Timer_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDE182B1253D400B28995 /* Interval_Timer_Watch_AppUITests.swift */; };
+		04AFDE1B2B1253D400B28995 /* Interval_Timer_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AFDE1A2B1253D400B28995 /* Interval_Timer_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04AFDDFA2B1253D300B28995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AFDDEC2B1253D200B28995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AFDDF72B1253D300B28995;
+			remoteInfo = "Interval Timer Watch App";
+		};
+		04AFDE0B2B1253D400B28995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AFDDEC2B1253D200B28995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AFDDF72B1253D300B28995;
+			remoteInfo = "Interval Timer Watch App";
+		};
+		04AFDE152B1253D400B28995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04AFDDEC2B1253D200B28995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04AFDDF72B1253D300B28995;
+			remoteInfo = "Interval Timer Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04AFDE212B1253D400B28995 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				04AFDDF92B1253D300B28995 /* Interval Timer Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04AFDDF22B1253D200B28995 /* Interval Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interval Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AFDDF82B1253D300B28995 /* Interval Timer Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interval Timer Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AFDDFD2B1253D300B28995 /* Interval_TimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval_TimerApp.swift; sourceTree = "<group>"; };
+		04AFDDFF2B1253D300B28995 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04AFDE012B1253D400B28995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AFDE042B1253D400B28995 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04AFDE0A2B1253D400B28995 /* Interval Timer Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interval Timer Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AFDE0E2B1253D400B28995 /* Interval_Timer_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval_Timer_Watch_AppTests.swift; sourceTree = "<group>"; };
+		04AFDE142B1253D400B28995 /* Interval Timer Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interval Timer Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AFDE182B1253D400B28995 /* Interval_Timer_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval_Timer_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		04AFDE1A2B1253D400B28995 /* Interval_Timer_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interval_Timer_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AFDDF52B1253D300B28995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDE072B1253D400B28995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDE112B1253D400B28995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AFDDEB2B1253D200B28995 = {
+			isa = PBXGroup;
+			children = (
+				04AFDDFC2B1253D300B28995 /* Interval Timer Watch App */,
+				04AFDE0D2B1253D400B28995 /* Interval Timer Watch AppTests */,
+				04AFDE172B1253D400B28995 /* Interval Timer Watch AppUITests */,
+				04AFDDF32B1253D200B28995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AFDDF32B1253D200B28995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDDF22B1253D200B28995 /* Interval Timer.app */,
+				04AFDDF82B1253D300B28995 /* Interval Timer Watch App.app */,
+				04AFDE0A2B1253D400B28995 /* Interval Timer Watch AppTests.xctest */,
+				04AFDE142B1253D400B28995 /* Interval Timer Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AFDDFC2B1253D300B28995 /* Interval Timer Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDDFD2B1253D300B28995 /* Interval_TimerApp.swift */,
+				04AFDDFF2B1253D300B28995 /* ContentView.swift */,
+				04AFDE012B1253D400B28995 /* Assets.xcassets */,
+				04AFDE032B1253D400B28995 /* Preview Content */,
+			);
+			path = "Interval Timer Watch App";
+			sourceTree = "<group>";
+		};
+		04AFDE032B1253D400B28995 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDE042B1253D400B28995 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04AFDE0D2B1253D400B28995 /* Interval Timer Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDE0E2B1253D400B28995 /* Interval_Timer_Watch_AppTests.swift */,
+			);
+			path = "Interval Timer Watch AppTests";
+			sourceTree = "<group>";
+		};
+		04AFDE172B1253D400B28995 /* Interval Timer Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04AFDE182B1253D400B28995 /* Interval_Timer_Watch_AppUITests.swift */,
+				04AFDE1A2B1253D400B28995 /* Interval_Timer_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Interval Timer Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AFDDF12B1253D200B28995 /* Interval Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AFDE222B1253D400B28995 /* Build configuration list for PBXNativeTarget "Interval Timer" */;
+			buildPhases = (
+				04AFDDF02B1253D200B28995 /* Resources */,
+				04AFDE212B1253D400B28995 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AFDDFB2B1253D300B28995 /* PBXTargetDependency */,
+			);
+			name = "Interval Timer";
+			productName = "Interval Timer";
+			productReference = 04AFDDF22B1253D200B28995 /* Interval Timer.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		04AFDDF72B1253D300B28995 /* Interval Timer Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AFDE1E2B1253D400B28995 /* Build configuration list for PBXNativeTarget "Interval Timer Watch App" */;
+			buildPhases = (
+				04AFDDF42B1253D300B28995 /* Sources */,
+				04AFDDF52B1253D300B28995 /* Frameworks */,
+				04AFDDF62B1253D300B28995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Interval Timer Watch App";
+			productName = "Interval Timer Watch App";
+			productReference = 04AFDDF82B1253D300B28995 /* Interval Timer Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04AFDE092B1253D400B28995 /* Interval Timer Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AFDE252B1253D400B28995 /* Build configuration list for PBXNativeTarget "Interval Timer Watch AppTests" */;
+			buildPhases = (
+				04AFDE062B1253D400B28995 /* Sources */,
+				04AFDE072B1253D400B28995 /* Frameworks */,
+				04AFDE082B1253D400B28995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AFDE0C2B1253D400B28995 /* PBXTargetDependency */,
+			);
+			name = "Interval Timer Watch AppTests";
+			productName = "Interval Timer Watch AppTests";
+			productReference = 04AFDE0A2B1253D400B28995 /* Interval Timer Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04AFDE132B1253D400B28995 /* Interval Timer Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AFDE282B1253D400B28995 /* Build configuration list for PBXNativeTarget "Interval Timer Watch AppUITests" */;
+			buildPhases = (
+				04AFDE102B1253D400B28995 /* Sources */,
+				04AFDE112B1253D400B28995 /* Frameworks */,
+				04AFDE122B1253D400B28995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04AFDE162B1253D400B28995 /* PBXTargetDependency */,
+			);
+			name = "Interval Timer Watch AppUITests";
+			productName = "Interval Timer Watch AppUITests";
+			productReference = 04AFDE142B1253D400B28995 /* Interval Timer Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AFDDEC2B1253D200B28995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					04AFDDF12B1253D200B28995 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					04AFDDF72B1253D300B28995 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					04AFDE092B1253D400B28995 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 04AFDDF72B1253D300B28995;
+					};
+					04AFDE132B1253D400B28995 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 04AFDDF72B1253D300B28995;
+					};
+				};
+			};
+			buildConfigurationList = 04AFDDEF2B1253D200B28995 /* Build configuration list for PBXProject "Interval Timer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AFDDEB2B1253D200B28995;
+			productRefGroup = 04AFDDF32B1253D200B28995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AFDDF12B1253D200B28995 /* Interval Timer */,
+				04AFDDF72B1253D300B28995 /* Interval Timer Watch App */,
+				04AFDE092B1253D400B28995 /* Interval Timer Watch AppTests */,
+				04AFDE132B1253D400B28995 /* Interval Timer Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AFDDF02B1253D200B28995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDDF62B1253D300B28995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AFDE052B1253D400B28995 /* Preview Assets.xcassets in Resources */,
+				04AFDE022B1253D400B28995 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDE082B1253D400B28995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDE122B1253D400B28995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AFDDF42B1253D300B28995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AFDE002B1253D300B28995 /* ContentView.swift in Sources */,
+				04AFDDFE2B1253D300B28995 /* Interval_TimerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDE062B1253D400B28995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AFDE0F2B1253D400B28995 /* Interval_Timer_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04AFDE102B1253D400B28995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AFDE192B1253D400B28995 /* Interval_Timer_Watch_AppUITests.swift in Sources */,
+				04AFDE1B2B1253D400B28995 /* Interval_Timer_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04AFDDFB2B1253D300B28995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AFDDF72B1253D300B28995 /* Interval Timer Watch App */;
+			targetProxy = 04AFDDFA2B1253D300B28995 /* PBXContainerItemProxy */;
+		};
+		04AFDE0C2B1253D400B28995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AFDDF72B1253D300B28995 /* Interval Timer Watch App */;
+			targetProxy = 04AFDE0B2B1253D400B28995 /* PBXContainerItemProxy */;
+		};
+		04AFDE162B1253D400B28995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04AFDDF72B1253D300B28995 /* Interval Timer Watch App */;
+			targetProxy = 04AFDE152B1253D400B28995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04AFDE1C2B1253D400B28995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04AFDE1D2B1253D400B28995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		04AFDE1F2B1253D400B28995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Interval Timer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 64SJ5E4E85;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Interval Timer";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gabrielwersebe.Interval-Timer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		04AFDE202B1253D400B28995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Interval Timer Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 64SJ5E4E85;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Interval Timer";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gabrielwersebe.Interval-Timer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		04AFDE232B1253D400B28995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64SJ5E4E85;
+				INFOPLIST_KEY_CFBundleDisplayName = "Interval Timer";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gabrielwersebe.Interval-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04AFDE242B1253D400B28995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64SJ5E4E85;
+				INFOPLIST_KEY_CFBundleDisplayName = "Interval Timer";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gabrielwersebe.Interval-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AFDE262B1253D400B28995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64SJ5E4E85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gabrielwersebe.Interval-Timer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interval Timer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Interval Timer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		04AFDE272B1253D400B28995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64SJ5E4E85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gabrielwersebe.Interval-Timer-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interval Timer Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Interval Timer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		04AFDE292B1253D400B28995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64SJ5E4E85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gabrielwersebe.Interval-Timer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Interval Timer Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		04AFDE2A2B1253D400B28995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64SJ5E4E85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gabrielwersebe.Interval-Timer-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Interval Timer Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AFDDEF2B1253D200B28995 /* Build configuration list for PBXProject "Interval Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AFDE1C2B1253D400B28995 /* Debug */,
+				04AFDE1D2B1253D400B28995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AFDE1E2B1253D400B28995 /* Build configuration list for PBXNativeTarget "Interval Timer Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AFDE1F2B1253D400B28995 /* Debug */,
+				04AFDE202B1253D400B28995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AFDE222B1253D400B28995 /* Build configuration list for PBXNativeTarget "Interval Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AFDE232B1253D400B28995 /* Debug */,
+				04AFDE242B1253D400B28995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AFDE252B1253D400B28995 /* Build configuration list for PBXNativeTarget "Interval Timer Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AFDE262B1253D400B28995 /* Debug */,
+				04AFDE272B1253D400B28995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AFDE282B1253D400B28995 /* Build configuration list for PBXNativeTarget "Interval Timer Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AFDE292B1253D400B28995 /* Debug */,
+				04AFDE2A2B1253D400B28995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AFDDEC2B1253D200B28995 /* Project object */;
+}
